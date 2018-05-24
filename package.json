@@ -1,10 +1,10 @@
 {
-  "name": "cora",
+  "name": "cortina",
   "version": "0.1.0",
   "description": "Asynchronous, extensible, general-purpose coroutine schedulers and combinators",
   "author": "Arthur Xavier <arthur.xavierx@gmail.com> (http://arthur-xavier.github.io/)",
   "license": "MIT",
-  "repository": "arthurxavierx/cora",
+  "repository": "arthurxavierx/cortina",
   "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
