@@ -8,7 +8,7 @@
   "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
-    "build": "rollup --config ./rollup.config.js",
+    "build": "babel ./src -o ./dist/index.js",
     "test": "jest --env=jsdom --config=./jest.config.js",
     "test:coverage": "jest --env=jsdom --config=./jest.config.js --coverage",
     "format": "prettier --write '{src,test}/**/*.js'",
@@ -35,6 +35,7 @@
     "channel"
   ],
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
