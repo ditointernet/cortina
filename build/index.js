@@ -305,23 +305,85 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.getIterator = exports.CancellationToken = exports.Query = exports.Channel = exports.Process = undefined;
 
-var _process = require('./process');
+var _CancellationToken = require('./CancellationToken');
 
-var _process2 = _interopRequireDefault(_process);
+Object.keys(_CancellationToken).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _CancellationToken[key];
+    }
+  });
+});
 
 var _channel = require('./channel');
 
-var _channel2 = _interopRequireDefault(_channel);
+Object.keys(_channel).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _channel[key];
+    }
+  });
+});
+
+var _combinators = require('./combinators');
+
+Object.keys(_combinators).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _combinators[key];
+    }
+  });
+});
+
+var _process = require('./process');
+
+Object.keys(_process).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _process[key];
+    }
+  });
+});
 
 var _Query = require('./Query');
 
-var _Query2 = _interopRequireDefault(_Query);
-
-var _CancellationToken = require('./CancellationToken');
-
-var _CancellationToken2 = _interopRequireDefault(_CancellationToken);
+Object.keys(_Query).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _Query[key];
+    }
+  });
+});
 
 var _types = require('./types');
+
+Object.keys(_types).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _types[key];
+    }
+  });
+});
+
+var _process2 = _interopRequireDefault(_process);
+
+var _channel2 = _interopRequireDefault(_channel);
+
+var _Query2 = _interopRequireDefault(_Query);
+
+var _CancellationToken2 = _interopRequireDefault(_CancellationToken);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
