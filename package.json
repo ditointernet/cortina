@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": "arthurxavierx/cortina",
   "main": "build/index.js",
-  "module": "build/index.js",
+  "module": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "test": "jest --env=jsdom --config=./jest.config.js",
@@ -16,6 +16,7 @@
   },
   "files": [
     "build/",
+    "src/",
     "LICENSE"
   ],
   "keywords": [
