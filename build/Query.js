@@ -36,3 +36,4 @@ function Query(name, constructor) {
 
   return _query;
 }
+module.exports = exports.default;

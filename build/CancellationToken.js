@@ -44,3 +44,4 @@ class CancellationToken {
   }
 }
 exports.default = CancellationToken;
+module.exports = exports.default;
