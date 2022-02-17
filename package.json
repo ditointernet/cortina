@@ -8,7 +8,7 @@
   "main": "build/index.js",
   "module": "build/index.js",
   "scripts": {
-    "build": "babel ./src -o ./build/index.js",
+    "build": "babel ./src -d ./build",
     "test": "jest --env=jsdom --config=./jest.config.js",
     "test:coverage": "jest --env=jsdom --config=./jest.config.js --coverage",
     "format": "prettier --write '{src,test}/**/*.js'",
